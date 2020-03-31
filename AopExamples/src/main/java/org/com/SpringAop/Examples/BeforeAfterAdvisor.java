@@ -1,6 +1,5 @@
 package org.com.SpringAop.Examples;
 
-import org.aopalliance.intercept.Joinpoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
