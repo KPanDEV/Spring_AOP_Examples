@@ -9,6 +9,9 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 <bean id = "impa" class= "org.com.SpringAop.Examples.ImplementA"/>
 <bean id = "bAd" class= "org.com.SpringAop.Examples.BeforeAfterAdvisor"/>
 
+<bean id = "afterRtrnImp" class= "org.com.SpringAop.Examples.AfterReturningImpl"/>
+<bean id = "afterRtrnAd" class= "org.com.SpringAop.Examples.AfterReturningAdvisor"/>
+
 <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"/>  
  
 </beans>
