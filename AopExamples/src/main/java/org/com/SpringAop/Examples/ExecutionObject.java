@@ -27,6 +27,11 @@ public class ExecutionObject {
 	    impA.methodB12();
 	    impA.methodB13();
 		
+	    
+	    //Example for AfterRetruning Aspect
+	   AfterReturningI afterRetrnI = (AfterReturningI) context.getBean("afterRtrnImp");
+	   afterRetrnI.add(10, 20);
+	   afterRetrnI.sub(20, 1);
 
 	}
 
